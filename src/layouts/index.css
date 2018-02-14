@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'SedanSC';
+  src: url('../fonts/SedanSC-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Sedan';
+  src: url('../fonts/Sedan-Regular.ttf');
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+img {
+  border-style: none;
+}
+
+html {
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+*:before {
+  box-sizing: inherit;
+}
+
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #0b090f;
+  font-size: 18px;
+  color: #ffe589;
+  font-family: Sedan;
+  font-weight: normal;
+  word-wrap: break-word;
+}
+
+h2 {
+  font-family: SedanSC;
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 1rem 1.5em;
+}
